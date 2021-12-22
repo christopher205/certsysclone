@@ -1,0 +1,16 @@
+@media (max-width: 968px) {
+    .navbar-nav {
+        display: none !important;
+    }
+    .btn-mobile {
+        display: block !important;
+        right: 27px;
+        position: fixed;
+    }
+    .title {
+        font-size: 1.5rem;
+        line-height: 34px;
+        width: 44%;
+        height: 15%;
+    }
+}

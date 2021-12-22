@@ -1,0 +1,110 @@
+.section {
+    background-color: var(--background-color);
+    height: 85vh;
+    width: 100%;
+    padding-bottom: 55px;
+}
+.content-section {
+    display: grid;
+    padding-top: 100px;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template-areas:
+        "box1 box2"
+        "box3 box3";
+    width: 100%;
+    height: 100%;
+    max-width: 96%;
+    max-height: 100%;
+}
+.box1 {
+    grid-area: box1;
+    justify-self: end;
+    width: 26em;
+    height: 14em;
+}
+.box1 > p {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: start;
+    line-height: 50px;
+    letter-spacing: normal;
+    color: var(--box1-color);
+}
+.box2 {
+    grid-area: box2;
+    justify-self: start;
+    width: 29em;
+    height: 14em;
+}
+.box2 > p {
+    margin: 0;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align: start;
+    line-height: 36px;
+    letter-spacing: normal;
+    color: var(--box2-color);
+}
+.box3 {
+    grid-area: box3;
+    justify-self: center;
+    width: 73%;
+    height: 8em;
+}
+.box3 > p {
+    margin: 0;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: normal;
+    color: var(--box2-color);
+}
+@media (max-width: 968px) {
+    .content-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 7.5em 1fr;
+        grid-template-areas:
+            "box1"
+            "box2"
+            "box3";
+        padding-left: 1.4rem;
+    }
+    .box1 {
+        grid-area: box1;
+        justify-self: flex-start;
+    }
+    .box2 {
+        width: 95%;
+        height: 6em;
+        grid-area: box2;
+        justify-self: flex-start;
+        font-size: 1.5rem;
+    }
+    .box2 > p, .box3 > p {
+        font-size: 1.3rem;
+        line-height: 30px;
+        text-align: left;
+    }
+    .box3 {
+        grid-area: box3;
+        justify-self: flex-start;
+        width: 95%;
+        height: 8em;
+    }
+}
+@media (max-width: 716px) {
+    .box2 {
+        width: 100%;
+        height: 100%;
+    }
+    .box3 {
+        width: 100%;
+    }
+    .content-section {
+        grid-template-rows: 1fr 0.5fr 1fr;
+        padding-left: 1rem;
+        padding-top: 35px;
+    }
+}

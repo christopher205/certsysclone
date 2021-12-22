@@ -1,0 +1,78 @@
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  width: 100%;
+  height: 92vh;
+  object-fit: cover;
+}
+.container {
+  margin-top: 7.7%;
+  width: 95%;
+  height: 60vh;
+}
+.title {
+  width: 94%;
+  padding-left: 9%;
+  height: 30%;
+  margin-bottom: 0;
+  color: var(--color-links);
+  font-size: 3.9rem;
+  line-height: 62px;
+  font-weight: 300;
+  letter-spacing: normal;
+  text-align: left;
+}
+.text {
+  width: 56%;
+  padding-left: 9%;
+  color: var(--color-links-hover);
+  font-size: 24px;
+  text-align: left;
+}
+.box-social-medias {
+  width: 100%;
+  height: 28vh;
+}
+.h4-content {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: var(--box-h4);
+}
+.div-content {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+  height: 50px;
+}
+.div-content  > a {
+  width: 40px;
+  height: 40px;
+}
+.div-content  > a > img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 667px) {
+  .text {
+    width: 75%;
+  }
+  .title {
+    width: 70% !important;
+    height: 22% !important;
+  }
+}
+@media (max-width: 943px) {
+  .box-social-medias {
+    margin-top: 30px;
+  }
+}

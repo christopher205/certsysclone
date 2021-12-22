@@ -1,0 +1,15 @@
+.footer-links {
+    list-style: none;
+    width: 100%;
+}
+.footer-links > p {
+    cursor: pointer;
+    color: var(--color-links);
+    font-size: 0.950rem;
+    margin: 0;
+}
+@media (max-width: 760px) {
+    .footer-links > p {
+        font-weight: 300;
+    }
+}
