@@ -23,7 +23,7 @@ function HomePage() {
         </p>
       </div>      
         
-          <div>
+          <div className="video">
           </div>
         
       <Section />
