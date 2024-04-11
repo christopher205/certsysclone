@@ -23,7 +23,7 @@
   padding-left: 9%;
   height: 30%;
   margin-bottom: 0;
-  color: var(--color-links);
+  color: #07172A;
   font-size: 3.9rem;
   line-height: 62px;
   font-weight: 300;
@@ -33,7 +33,7 @@
 .text {
   width: 56%;
   padding-left: 9%;
-  color: var(--color-links-hover);
+  color: #596370;
   font-size: 24px;
   text-align: left;
 }
