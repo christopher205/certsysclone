@@ -23,9 +23,11 @@ function HomePage() {
         </p>
       </div>      
         <video className="video">
-           <iframe title="certsyshome"
-                src="https://www.youtube.com/watch?v=xqRJcW7eMaM?autoplay=1&mute=1">
-           </iframe>
+          <iframe src="https://www.youtube.com/embed/xqRJcW7eMaM?si=QaZMi9cF-sS6Mb_t&amp;controls=0" 
+                title="YouTube certsys" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
         </video>
       <Section />
       
