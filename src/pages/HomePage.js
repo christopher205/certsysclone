@@ -21,10 +21,11 @@ function HomePage() {
         <p className="text" > resolvendo desafios complexos através
             da nossa cultura e tecnologia
         </p>
-      </div>
-        <video className="video" autoPlay loop muted>
-          <source src="https://www.youtube.com/watch?v=xqRJcW7eMaM"
-          type="video/mp4" />
+      </div>      
+        <video className="video">
+           <iframe
+                src="https://www.youtube.com/watch?v=xqRJcW7eMaM?autoplay=1&mute=1">
+           </iframe>
         </video>
       <Section />
       
