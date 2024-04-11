@@ -4,4 +4,4 @@
 
 ### O deploy do projeto foi feito no Netlify
 
-### Você pode ver o resultado neste link https://61c289349424bec2c93f4217--quizzical-bhaskara-f5a6ab.netlify.app/
+### Você pode ver o resultado neste link https://master--quizzical-bhaskara-f5a6ab.netlify.app/
