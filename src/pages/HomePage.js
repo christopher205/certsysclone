@@ -23,7 +23,7 @@ function HomePage() {
         </p>
       </div>      
         
-          <iframe className="video" src="https://www.youtube.com/embed/xqRJcW7eMaM?si=QaZMi9cF-sS6Mb_t&amp;controls=0" 
+          <iframe className="video" src="https://www.youtube.com/embed/xqRJcW7eMaM?autoplay=1&mute=1"
                 title="YouTube certsys" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
