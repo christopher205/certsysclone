@@ -23,7 +23,7 @@ function HomePage() {
         </p>
       </div>
         <video className="video" autoPlay loop muted>
-          <source src="https://www.certsys.com.br//wp-content//uploads//2021//08//CERTSYS-HOME-VIDEO.mp4"
+          <source src="https://www.youtube.com/watch?v=xqRJcW7eMaM"
           type="video/mp4" />
         </video>
       <Section />
