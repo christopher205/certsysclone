@@ -23,7 +23,7 @@ function HomePage() {
         </p>
       </div>      
         <video className="video">
-           <iframe
+           <iframe title="certsyshome"
                 src="https://www.youtube.com/watch?v=xqRJcW7eMaM?autoplay=1&mute=1">
            </iframe>
         </video>
